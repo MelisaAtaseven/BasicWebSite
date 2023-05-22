@@ -1,0 +1,53 @@
+html{
+	background: url(ışık.gif) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+*{
+	margin: 50px;
+	padding: 50px;
+}
+nav {
+	text-align:center;
+}
+nav{
+
+	border-top:  3px solid#185aa3;
+	background-color: #185aa3;
+	text-align:center;
+	width: 100%;
+}
+nav ul{
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+}
+nav li a{
+	display: block;
+	padding: 12px 15px;
+	font:15px tahoma, arial;
+	color:black;
+	text-decoration: none;
+}
+nav li a:hover {
+	background-color:#185aa3; 
+	transition-duration: 0.5s;
+}
+nav li ul{
+	text-align:left;
+	display: none;
+	position: absolute;
+	background-color:white;
+	width: 170px;
+}
+nav li:hover ul{
+	display: block;
+}
+nav li ul li{
+	display: block;
+}
+
+
